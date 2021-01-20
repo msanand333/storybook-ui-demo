@@ -1,0 +1,29 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+.progress-bar-container {
+    text-align: center;
+    display: inline-block;
+}
+
+.progress-bar-container .progress-percentage {
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.progress-bar-container .progress-meter {
+    width: 500px;
+    height: 15px;
+    border: 2px solid black;
+}
+
+.progress-bar-container .progress {
+    background-image: linear-gradient(to left, #84c3cd, #51c9c3, #2ccca5, #46cb76, #74c635);
+    height: 100%;
+    list-style: none;
+}
